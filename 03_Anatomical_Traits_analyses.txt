@@ -1,0 +1,218 @@
+###### PROLONGED DRY HALTS LEAF LITTER DECOMPOSITION IN AN EPHEMERAL RIVER OF THE BRAZILIAN TROPICAL SEMIARID REGION###
+
+ ##Anatomical Traits 
+# Install binary versions with Windows compatibility 
+install.packages(
+  c("rlang", "vctrs", "dplyr", "tidyr", "ggpubr"),
+  type = "binary"
+)
+ 
+##load packages
+library(ggplot2)
+library(cowplot)
+library(multcompView)
+library(tidyr)
+library(ggpubr)
+
+#Explore differences of anatomical traits (%undegraded midrib area and total phenolic compounds) between species (analyse performed in undegraded leaves)
+#load data %UM (undegraded midrid %)
+ACLc <- (read.csv("UM.csv", sep = ";"))
+ACLc
+
+# Run Anova
+attach(ACLc)
+summary(ACLc)
+ACLc$Especie<-as.factor(ACLc$Especie)
+str(ACLc)
+ 
+mACL0 <- aov(log(ACL.) ~ Especie, data = ACLc)
+summary(mACL0)
+
+#Check residuals normality 
+res_acl <- residuals(mACL0)
+shapiro.test(res_acl)
+summary(mACL0)
+#run post hoc test 
+tuk <- TukeyHSD(mACL0)
+tuk
+
+#Explore  groups formed for Tukey test
+letters <- multcompLetters4(mACL0, tuk)
+letters
+ 
+##TPC ( total phenolic compounds)
+ 
+#load TPC data
+tpc <- read.csv(
+  "tpc.csv",
+  sep = ";"
+)
+
+tpc
+ tpc <- subset(tpc, HABITAT == "CONTROL")
+tpc
+ tpc$ESPECIE<-as.factor(tpc$ESPECIE)
+ 
+#Run anova analysis 
+mtpc0 <- aov(tpc$C_FENOLIC ~ tpc$ESPECIE, data = tpc)
+summary(mtpc0)
+
+#Check residual normality
+res_tpc<- residuals(mtpc0)
+shapiro.test(res_tpc)
+tuk <- TukeyHSD(mtpc0)
+tuk
+
+#Explore  groups formed for Tukey test
+letters <- multcompLetters4(mtpc0, tuk)
+letters
+ 
+#plot total phenolic compounds
+ 
+tpc$ESPECIE <- factor(tpc$ESPECIE,
+                             levels = c("MO", "MP", "FB", "JZ"))
+tpc$ESPECIE <- factor(
+  tpc$ESPECIE,
+  levels = c("MO", "MP", "FB", "JZ"),
+  labels = c(
+    "B. cheilantha",
+    "C. blanchetianus",
+    "C. flexuosa",
+    "S. joazeiro"
+  )
+)
+ 
+Bp_control <- ggplot(data = tpc, aes(x = ESPECIE, y = C_FENOLIC, fill = ESPECIE)) +
+  geom_errorbar(stat = "boxplot", width = 0.2) +
+  geom_boxplot(width = 0.6,
+               outlier.shape = 1,
+               outlier.size = 2,
+               notch = TRUE) +
+  labs(y = "C phenolic", x = "", fill = "") +
+  theme_cowplot() +
+  theme(axis.text.x = element_text(face = "italic"),
+        legend.text = element_text(face = "italic")) +
+  scale_y_continuous(breaks = c(20,  40, 60)) +
+  coord_cartesian(ylim = c(20, 60)) +
+  annotate("text", x = "B. cheilantha", y = 50, label = "", size = 5) +
+  annotate("text", x = "C. blanchetianus", y = 55, label = "", size = 5) +
+  annotate("text", x = "C. flexuosa", y = 60, label = "", size = 5) +
+  annotate("text", x = "S. joazeiro", y = 25, label = "", size = 5)
+Bp_control
+ 
+
+ggsave("tpc.jpeg", width = 13, height = 9, units = "cm", bg="white", dpi = 320)
+  
+#Differences between habitats 
+  
+#load data
+pat <- read.table("pat_tab.txt", sep = "\t",header = T)
+pat_ <- read.table("pat_fenol.txt", sep = "\t",header = T)
+
+str(pat)
+pat$sp <- as.factor(pat$sp)
+str(pat)
+pat$ponto <- as.factor(pat$ponto)
+str(pat)
+ 
+str(pat_)
+pat_$sp <- as.factor(pat_$sp)
+str(pat_)
+pat_$hb <- as.factor(pat_$hb)
+str(pat_)
+ 
+pat_1 <- pat_[pat_$hb!="CONTROL",]
+ 
+pat_2 <- pat_[pat_$hb=="DRY",]
+ 
+pat_3 <- pat_[pat_$hb=="POOL",]
+ 
+pat_1.1 <- pat_[pat_$hb=="CONTROL",]
+ #perform t  test  between habitats and species
+b.chei1 <- pat_1[pat_1$sp=="MO",]
+t.test(fenol~hb, data = b.chei1)
+ 
+c.blan1 <- pat_1[pat_1$sp=="MP",]
+t.test(fenol~hb, data = c.blan1)
+ 
+c.flex1 <- pat_1[pat_1$sp=="FB",]
+t.test(fenol~hb, data = c.flex1)
+ 
+s.joaz1 <- pat_1[pat_1$sp=="JZ",]
+t.test(fenol~hb, data = s.joaz1)
+ 
+s.joaz1 <- pat_[pat_$sp=="JZ",]
+jz_test <- aov(fenol~hb, data = s.joaz1)
+summary(jz_test)
+TukeyHSD(jz_test)
+ 
+ds_test1 <- aov(fenol~sp, data = pat_2)
+summary(ds_test1)
+TukeyHSD(ds_test1)
+ 
+ip_test1 <- aov(fenol~sp, data = pat_3)
+summary(ip_test1)
+TukeyHSD(ip_test1)
+ 
+pat.long <- gather(pat, key="medidas", value= "valores", dry.surfaces:isolated.pools)
+head(pat.long)
+
+ ds_test <- aov(dry.surfaces~sp, data = pat)
+summary(ds_test)
+TukeyHSD(ds_test)
+ 
+ip_test <- aov(isolated.pools~sp, data = pat)
+summary(ip_test)
+TukeyHSD(ip_test)
+ 
+b.chei <- pat.long[pat$sp=="B. cheilantha",]
+t.test(valores~medidas, data = b.chei)
+ 
+c.blan <- pat.long[pat$sp=="C. blanchetianus",]
+t.test(valores~medidas, data = c.blan)
+ 
+c.flex <- pat.long[pat$sp=="C. flexuosa",]
+t.test(valores~medidas, data = c.flex)
+ 
+s.joaz <- pat.long[pat$sp=="S. joazeiro",]
+t.test(valores~medidas, data = s.joaz)
+ 
+##Plots
+ 
+Bpacl <- ggplot(data = pat.long , aes(x = sp, y = valores, fill = medidas)) +
+  stat_boxplot(geom = "errorbar", width = 0.5,
+               position = position_dodge(width = 0.8)) +
+  geom_boxplot(width = 0.5, position = position_dodge(width = 0.8), notch = TRUE)+
+  labs(y = "LCA (%)", x = "Specie", fill="") +
+  theme_cowplot(font_size = 20) +
+  theme(axis.text.x = element_text(face="italic"))+
+  annotate("text", x = "B. cheilantha", y = 77, label = "paste(A,\"       b\")", parse = TRUE, size = 8)+annotate("text", x = "C. blanchetianus", y = 90, label = "paste(AB,\"  	ab\")", parse = TRUE, size = 8)+annotate("text", x = "C. flexuosa", y = 62, label = "paste(B,\"       c\")", parse = TRUE, size = 8)+annotate("text", x = "S. joazeiro", y = 88, label = "paste(A,\"    	a\")", parse = TRUE, size = 8)+annotate("text", x = "B. cheilantha", y = 76, label = "paste(\"*\")", parse = TRUE, size = 8)+annotate("text", x = "C. blanchetianus", y = 87, label = "paste(\" n.s.\")", parse = TRUE, size = 5)+annotate("text", x = "C. flexuosa", y = 61, label = "paste(\"*\")", parse = TRUE, size = 8)+annotate("text", x = "S. joazeiro", y = 87, label = "paste(\" n.s.\")", parse = TRUE, size = 5)+theme(legend.position = c(0.8,0.1), panel.grid.major = element_blank())# +
+  #annotate("text", x =  "B. cheilantha", y = 50, label = "b", parse = F, size = 5) +
+  #annotate("text", x =  "C. flexuosa", y =55, label = "a", parse = F, size = 5) +
+  #annotate("text", x =  "S. joazeiro", y = 60, label = "a", parse = F, size = 5) +
+ # annotate("text", x =  "C. sonderianus", y = 25, label = "c", parse = F, size = 5)
+Bpacl 
+ 
+ggsave(filename = "Bpacl.pdf", plot = Bpacl,width=10, height=8, units = "in", dpi = 320)
+ 
+custom_order <- c("S. joazeiro", "C. flexuosa", "C. blanchetianus", "B. cheilantha")
+ 
+# Apply the custom order to the data frame
+pat.long$sp <- factor(pat.long$sp, levels = custom_order)
+ 
+Bpacl <- ggplot(data = pat.long , aes(x = sp, y = valores, fill = medidas)) +
+  stat_boxplot(geom = "errorbar", width = 0.5,
+               position = position_dodge(width = 0.8)) +
+  geom_boxplot(width = 0.5, position = position_dodge(width = 0.8), notch = TRUE)+
+  labs(y = "LCA (%)", x = "Species", fill="") +
+  theme_cowplot(font_size = 20) +
+  theme(axis.text.y = element_text(face="italic"))+
+  annotate("text", x = "B. cheilantha", y = 77, label = "paste(A,\"       b\")", parse = TRUE, size = 8)+annotate("text", x = "C. blanchetianus", y = 90, label = "paste(AB,\"  	ab\")", parse = TRUE, size = 8)+annotate("text", x = "C. flexuosa", y = 62, label = "paste(B,\"       c\")", parse = TRUE, size = 8)+annotate("text", x = "S. joazeiro", y = 88, label = "paste(A,\"    	a\")", parse = TRUE, size = 8)+annotate("text", x = "B. cheilantha", y = 76, label = "paste(\"*\")", parse = TRUE, size = 8)+annotate("text", x = "C. blanchetianus", y = 87, label = "paste(\" n.s.\")", parse = TRUE, size = 5)+annotate("text", x = "C. flexuosa", y = 61, label = "paste(\"*\")", parse = TRUE, size = 8)+annotate("text", x = "S. joazeiro", y = 87, label = "paste(\" n.s.\")", parse = TRUE, size = 5)+theme(legend.position = c(0.75,0.98), panel.grid.major = element_blank())+rotate_y_text(90)# +
+#annotate("text", x =  "B. cheilantha", y = 50, label = "b", parse = F, size = 5) +
+#annotate("text", x =  "C. flexuosa", y =55, label = "a", parse = F, size = 5) +
+#annotate("text", x =  "S. joazeiro", y = 60, label = "a", parse = F, size = 5) +
+# annotate("text", x =  "C. sonderianus", y = 25, label = "c", parse = F, size = 5)
+Bpacl2 <- Bpacl + coord_flip()
+ 
+ggsave(filename = "Bpacl2.pdf", plot = Bpacl2,width=8, height=10, units = "in", dpi = 320)
+
