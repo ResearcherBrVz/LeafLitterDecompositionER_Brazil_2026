@@ -1,0 +1,540 @@
+Site;Species;Habitat;Period;k
+3;C. blanchetianus;DS;Very Dry;0.000267137
+3;C. blanchetianus;DS;Very Dry;0.000208642
+3;C. blanchetianus;DS;Very Dry;0.000169289
+3;B. cheilantha;DS;Very Dry;0.000154216
+3;B. cheilantha;DS;Very Dry;0.000226836
+3;B. cheilantha;DS;Very Dry;0.000256956
+3;C. flexuosa;DS;Very Dry;0.000518485
+3;C. flexuosa;DS;Very Dry;0.000190935
+3;C. flexuosa;DS;Very Dry;0.000305669
+3;S. joazeiro;DS;Very Dry;6.12E-05
+3;S. joazeiro;DS;Very Dry;0.000112882
+3;S. joazeiro;DS;Very Dry;9.63E-05
+5;C. blanchetianus;DS;Very Dry;0.000219592
+5;C. blanchetianus;DS;Very Dry;0.000237835
+5;C. blanchetianus;DS;Very Dry;0.000271639
+5;B. cheilantha;DS;Very Dry;0.002049399
+5;B. cheilantha;DS;Very Dry;0.000812188
+5;B. cheilantha;DS;Very Dry;0.000742576
+5;C. flexuosa;DS;Very Dry;0.000136273
+5;C. flexuosa;DS;Very Dry;0.000212888
+5;C. flexuosa;DS;Very Dry;0.000180668
+5;S. joazeiro;DS;Very Dry;7.98E-05
+5;S. joazeiro;DS;Very Dry;9.45E-05
+5;S. joazeiro;DS;Very Dry;7.99E-05
+6;C. blanchetianus;DS;Very Dry;0.000176627
+6;C. blanchetianus;DS;Very Dry;0.000153091
+6;C. blanchetianus;DS;Very Dry;0.000323945
+6;B. cheilantha;DS;Very Dry;0.000189684
+6;B. cheilantha;DS;Very Dry;0.000216303
+6;B. cheilantha;DS;Very Dry;0.000410251
+6;C. flexuosa;DS;Very Dry;0.000201169
+6;C. flexuosa;DS;Very Dry;8.95E-05
+6;C. flexuosa;DS;Very Dry;0.000138987
+6;S. joazeiro;DS;Very Dry;5.74E-05
+6;S. joazeiro;DS;Very Dry;6.23E-05
+6;S. joazeiro;DS;Very Dry;7.12E-05
+7;C. blanchetianus;DS;Very Dry;0.000140048
+7;C. blanchetianus;DS;Very Dry;0.000132524
+7;C. blanchetianus;DS;Very Dry;0.000144508
+7;B. cheilantha;DS;Very Dry;0.00040227
+7;B. cheilantha;DS;Very Dry;8.34E-05
+7;B. cheilantha;DS;Very Dry;0.000318888
+7;C. flexuosa;DS;Very Dry;0.000172943
+7;C. flexuosa;DS;Very Dry;0.000121413
+7;C. flexuosa;DS;Very Dry;0.000161144
+7;S. joazeiro;DS;Very Dry;5.10E-05
+7;S. joazeiro;DS;Very Dry;5.24E-05
+7;S. joazeiro;DS;Very Dry;6.22E-05
+9;C. blanchetianus;DS;Very Dry;0.000101246
+9;C. blanchetianus;DS;Very Dry;0.000125648
+9;C. blanchetianus;DS;Very Dry;0.000310041
+9;B. cheilantha;DS;Very Dry;0.000211342
+9;B. cheilantha;DS;Very Dry;0.0001611
+9;B. cheilantha;DS;Very Dry;0.000123812
+9;C. flexuosa;DS;Very Dry;9.67E-05
+9;C. flexuosa;DS;Very Dry;0.000204669
+9;C. flexuosa;DS;Very Dry;0.000167187
+9;S. joazeiro;DS;Very Dry;2.75E-05
+9;S. joazeiro;DS;Very Dry;4.69E-05
+9;S. joazeiro;DS;Very Dry;4.10E-05
+10;C. blanchetianus;DS;Very Dry;0.000161041
+10;C. blanchetianus;DS;Very Dry;0.000230609
+10;C. blanchetianus;DS;Very Dry;0.000661866
+10;B. cheilantha;DS;Very Dry;0.001316079
+10;B. cheilantha;DS;Very Dry;0.000777369
+10;B. cheilantha;DS;Very Dry;0.001082313
+10;C. flexuosa;DS;Very Dry;0.00054384
+10;C. flexuosa;DS;Very Dry;0.000254286
+10;C. flexuosa;DS;Very Dry;0.000357623
+10;S. joazeiro;DS;Very Dry;0.000129456
+10;S. joazeiro;DS;Very Dry;0.000104988
+10;S. joazeiro;DS;Very Dry;0.000117345
+12;C. blanchetianus;DS;Very Dry;6.67E-05
+12;C. blanchetianus;DS;Very Dry;0.000147164
+12;C. blanchetianus;DS;Very Dry;1.05E-05
+12;B. cheilantha;DS;Very Dry;0.002157681
+12;B. cheilantha;DS;Very Dry;0.001172651
+12;B. cheilantha;DS;Very Dry;0.000141804
+12;C. flexuosa;DS;Very Dry;0.000212369
+12;C. flexuosa;DS;Very Dry;1.42E-05
+12;C. flexuosa;DS;Very Dry;0.000104661
+12;S. joazeiro;DS;Very Dry;4.52E-05
+12;S. joazeiro;DS;Very Dry;4.79E-05
+12;S. joazeiro;DS;Very Dry;4.94E-05
+13;C. blanchetianus;DS;Very Dry;8.21E-05
+13;C. blanchetianus;DS;Very Dry;0.000207193
+13;C. blanchetianus;DS;Very Dry;0.000106386
+13;B. cheilantha;DS;Very Dry;0.000159908
+13;B. cheilantha;DS;Very Dry;0.00023634
+13;B. cheilantha;DS;Very Dry;0.000352863
+13;C. flexuosa;DS;Very Dry;0.000260943
+13;C. flexuosa;DS;Very Dry;0.000137882
+13;C. flexuosa;DS;Very Dry;0.00016086
+13;S. joazeiro;DS;Very Dry;0.000109263
+13;S. joazeiro;DS;Very Dry;9.62E-05
+13;S. joazeiro;DS;Very Dry;0.000102709
+15;C. blanchetianus;DS;Very Dry;5.31E-05
+15;C. blanchetianus;DS;Very Dry;0.00032186
+15;C. blanchetianus;DS;Very Dry;0.00048574
+15;B. cheilantha;DS;Very Dry;0.000436554
+15;B. cheilantha;DS;Very Dry;0.000790882
+15;B. cheilantha;DS;Very Dry;0.000430475
+15;C. flexuosa;DS;Very Dry;0.000168862
+15;C. flexuosa;DS;Very Dry;0.00022114
+15;C. flexuosa;DS;Very Dry;0.000195767
+15;S. joazeiro;DS;Very Dry;0.000108769
+15;S. joazeiro;DS;Very Dry;8.36E-05
+15;S. joazeiro;DS;Very Dry;9.30E-05
+16;C. blanchetianus;DS;Very Dry;0.000115017
+16;C. blanchetianus;DS;Very Dry;3.07E-05
+16;C. blanchetianus;DS;Very Dry;0.000169851
+16;B. cheilantha;DS;Very Dry;0.000583159
+16;B. cheilantha;DS;Very Dry;0.000294893
+16;B. cheilantha;DS;Very Dry;0.000330938
+16;C. flexuosa;DS;Very Dry;0.00023576
+16;C. flexuosa;DS;Very Dry;0.000188097
+16;C. flexuosa;DS;Very Dry;0.00022703
+16;S. joazeiro;DS;Very Dry;5.97E-05
+16;S. joazeiro;DS;Very Dry;0.000127146
+16;S. joazeiro;DS;Very Dry;9.28E-05
+17;C. blanchetianus;DS;Very Dry;4.14E-05
+17;C. blanchetianus;DS;Very Dry;4.67E-05
+17;C. blanchetianus;DS;Very Dry;0.000343909
+17;B. cheilantha;DS;Very Dry;0.000301892
+17;B. cheilantha;DS;Very Dry;0.000521746
+17;B. cheilantha;DS;Very Dry;0.000471842
+17;C. flexuosa;DS;Very Dry;0.000213191
+17;C. flexuosa;DS;Very Dry;0.000190677
+17;C. flexuosa;DS;Very Dry;0.000191404
+17;S. joazeiro;DS;Very Dry;8.77E-05
+17;S. joazeiro;DS;Very Dry;0.000116084
+17;S. joazeiro;DS;Very Dry;9.49E-05
+18;C. blanchetianus;DS;Very Dry;2.30E-05
+18;C. blanchetianus;DS;Very Dry;8.81E-05
+18;C. blanchetianus;DS;Very Dry;0.000134778
+18;B. cheilantha;DS;Very Dry;0.000246728
+18;B. cheilantha;DS;Very Dry;0.00010342
+18;B. cheilantha;DS;Very Dry;0.000186626
+18;C. flexuosa;DS;Very Dry;8.30E-05
+18;C. flexuosa;DS;Very Dry;0.000170112
+18;C. flexuosa;DS;Very Dry;0.000134929
+18;S. joazeiro;DS;Very Dry;4.94E-05
+18;S. joazeiro;DS;Very Dry;5.72E-05
+18;S. joazeiro;DS;Very Dry;6.19E-05
+21;C. blanchetianus;DS;Very Dry;7.07E-05
+21;C. blanchetianus;DS;Very Dry;5.39E-05
+21;C. blanchetianus;DS;Very Dry;0.000140535
+21;B. cheilantha;DS;Very Dry;0.000384313
+21;B. cheilantha;DS;Very Dry;0.000212327
+21;B. cheilantha;DS;Very Dry;0.000422493
+21;C. flexuosa;DS;Very Dry;0.000292184
+21;C. flexuosa;DS;Very Dry;0.000316863
+21;C. flexuosa;DS;Very Dry;0.000326377
+21;S. joazeiro;DS;Very Dry;8.64E-05
+21;S. joazeiro;DS;Very Dry;7.26E-05
+21;S. joazeiro;DS;Very Dry;7.52E-05
+24;C. blanchetianus;DS;Very Dry;0.0002454
+24;C. blanchetianus;DS;Very Dry;0.00017309
+24;C. blanchetianus;DS;Very Dry;0.000125406
+24;B. cheilantha;DS;Very Dry;0.000367357
+24;B. cheilantha;DS;Very Dry;0.002594379
+24;B. cheilantha;DS;Very Dry;0.002853376
+24;C. flexuosa;DS;Very Dry;0.000230033
+24;C. flexuosa;DS;Very Dry;0.000180454
+24;C. flexuosa;DS;Very Dry;0.000207038
+24;S. joazeiro;DS;Very Dry;0.000126313
+24;S. joazeiro;DS;Very Dry;0.000106213
+24;S. joazeiro;DS;Very Dry;0.000128548
+14;C. blanchetianus;IP;Very Dry;0.000237664
+14;C. blanchetianus;IP;Very Dry;0.000330359
+14;C. blanchetianus;IP;Very Dry;0.000155477
+14;B. cheilantha;IP;Very Dry;0.001138825
+14;B. cheilantha;IP;Very Dry;0.001047486
+14;B. cheilantha;IP;Very Dry;0.001395635
+14;C. flexuosa;IP;Very Dry;0.000826437
+14;C. flexuosa;IP;Very Dry;0.00099841
+14;C. flexuosa;IP;Very Dry;0.000838433
+14;S. joazeiro;IP;Very Dry;0.000207577
+14;S. joazeiro;IP;Very Dry;0.000208876
+14;S. joazeiro;IP;Very Dry;0.000217953
+3;C. blanchetianus;DS;Wet;0.008167395
+3;C. blanchetianus;DS;Wet;0.007754509
+3;C. blanchetianus;DS;Wet;0.00905258
+3;B. cheilantha;DS;Wet;0.064877526
+3;B. cheilantha;DS;Wet;0.02294239
+3;B. cheilantha;DS;Wet;0.04272037
+3;C. flexuosa;DS;Wet;0.020505794
+3;C. flexuosa;DS;Wet;0.021980815
+3;C. flexuosa;DS;Wet;0.018446987
+3;S. joazeiro;DS;Wet;0.018830918
+3;S. joazeiro;DS;Wet;0.016507838
+3;S. joazeiro;DS;Wet;0.021457402
+13;C. blanchetianus;DS;Wet;0.015161788
+13;C. blanchetianus;DS;Wet;0.007809387
+13;C. blanchetianus;DS;Wet;0.019921719
+13;B. cheilantha;DS;Wet;0.108890922
+13;B. cheilantha;DS;Wet;0.137524949
+13;B. cheilantha;DS;Wet;0.123634811
+13;C. flexuosa;DS;Wet;0.017117417
+13;C. flexuosa;DS;Wet;0.014517077
+13;C. flexuosa;DS;Wet;0.017031659
+13;S. joazeiro;DS;Wet;0.015871171
+13;S. joazeiro;DS;Wet;0.013505705
+13;S. joazeiro;DS;Wet;0.009662979
+15;C. blanchetianus;DS;Wet;0.013069024
+15;C. blanchetianus;DS;Wet;0.016533952
+15;C. blanchetianus;DS;Wet;0.014613384
+15;B. cheilantha;DS;Wet;0.028646217
+15;B. cheilantha;DS;Wet;0.023206836
+15;B. cheilantha;DS;Wet;0.038505514
+15;C. flexuosa;DS;Wet;0.018735222
+15;C. flexuosa;DS;Wet;0.019117693
+15;C. flexuosa;DS;Wet;0.016524786
+15;S. joazeiro;DS;Wet;0.01098608
+15;S. joazeiro;DS;Wet;0.014312154
+15;S. joazeiro;DS;Wet;0.015999441
+16;C. blanchetianus;DS;Wet;0.025732394
+16;C. blanchetianus;DS;Wet;0.023089276
+16;C. blanchetianus;DS;Wet;0.017360846
+16;B. cheilantha;DS;Wet;0.050503287
+16;B. cheilantha;DS;Wet;0.046713332
+16;B. cheilantha;DS;Wet;0.04140167
+16;C. flexuosa;DS;Wet;0.023518809
+16;C. flexuosa;DS;Wet;0.021554619
+16;C. flexuosa;DS;Wet;0.021362698
+16;S. joazeiro;DS;Wet;0.026555061
+16;S. joazeiro;DS;Wet;0.027260833
+16;S. joazeiro;DS;Wet;0.012874937
+17;C. blanchetianus;DS;Wet;0.007827309
+17;C. blanchetianus;DS;Wet;0.009020828
+17;C. blanchetianus;DS;Wet;0.01022133
+17;B. cheilantha;DS;Wet;0.051312253
+17;B. cheilantha;DS;Wet;0.038224203
+17;B. cheilantha;DS;Wet;0.077410337
+17;C. flexuosa;DS;Wet;0.018451661
+17;C. flexuosa;DS;Wet;0.0174366
+17;C. flexuosa;DS;Wet;0.007260505
+17;S. joazeiro;DS;Wet;0.012789905
+17;S. joazeiro;DS;Wet;0.00880779
+17;S. joazeiro;DS;Wet;0.010495514
+18;C. blanchetianus;DS;Wet;0.006916652
+18;C. blanchetianus;DS;Wet;0.015535328
+18;C. blanchetianus;DS;Wet;0.01452303
+18;B. cheilantha;DS;Wet;0.011200262
+18;B. cheilantha;DS;Wet;0.013125997
+18;B. cheilantha;DS;Wet;0.022676393
+18;C. flexuosa;DS;Wet;0.01876694
+18;C. flexuosa;DS;Wet;0.017615603
+18;C. flexuosa;DS;Wet;0.017463561
+18;S. joazeiro;DS;Wet;0.007366943
+18;S. joazeiro;DS;Wet;0.009869679
+18;S. joazeiro;DS;Wet;0.010545687
+21;C. blanchetianus;DS;Wet;0.010325974
+21;C. blanchetianus;DS;Wet;0.009452961
+21;C. blanchetianus;DS;Wet;0.005102704
+21;B. cheilantha;DS;Wet;0.024437051
+21;B. cheilantha;DS;Wet;0.013566503
+21;B. cheilantha;DS;Wet;0.044169158
+21;C. flexuosa;DS;Wet;0.026501921
+21;C. flexuosa;DS;Wet;0.015553254
+21;C. flexuosa;DS;Wet;0.017865365
+21;S. joazeiro;DS;Wet;0.012915859
+21;S. joazeiro;DS;Wet;0.01558836
+21;S. joazeiro;DS;Wet;0.011369071
+24;C. blanchetianus;DS;Wet;0.01112234
+24;C. blanchetianus;DS;Wet;0.009061522
+24;C. blanchetianus;DS;Wet;0.009076585
+24;B. cheilantha;DS;Wet;0.028250765
+24;B. cheilantha;DS;Wet;0.02233777
+24;B. cheilantha;DS;Wet;0.020637132
+24;C. flexuosa;DS;Wet;0.014741419
+24;C. flexuosa;DS;Wet;0.016846205
+24;C. flexuosa;DS;Wet;0.016664145
+24;S. joazeiro;DS;Wet;0.014262998
+24;S. joazeiro;DS;Wet;0.021579237
+24;S. joazeiro;DS;Wet;0.021507466
+5;C. blanchetianus;IP;Wet;0.004590481
+5;C. blanchetianus;IP;Wet;0.010471409
+5;C. blanchetianus;IP;Wet;0.00668941
+5;B. cheilantha;IP;Wet;0.042640249
+5;B. cheilantha;IP;Wet;0.058366518
+5;B. cheilantha;IP;Wet;0.03616798
+5;C. flexuosa;IP;Wet;0.024095756
+5;C. flexuosa;IP;Wet;0.023259986
+5;C. flexuosa;IP;Wet;0.024667759
+5;S. joazeiro;IP;Wet;0.021487087
+5;S. joazeiro;IP;Wet;0.032143555
+5;S. joazeiro;IP;Wet;0.024540086
+6;C. blanchetianus;IP;Wet;0.011599761
+6;C. blanchetianus;IP;Wet;0.016774448
+6;C. blanchetianus;IP;Wet;0.01452711
+6;B. cheilantha;IP;Wet;0.03977056
+6;B. cheilantha;IP;Wet;0.043971647
+6;B. cheilantha;IP;Wet;0.033446185
+6;C. flexuosa;IP;Wet;0.02332708
+6;C. flexuosa;IP;Wet;0.016740859
+6;C. flexuosa;IP;Wet;0.021915338
+6;S. joazeiro;IP;Wet;0.029396358
+6;S. joazeiro;IP;Wet;0.027737187
+6;S. joazeiro;IP;Wet;0.024948373
+7;C. blanchetianus;IP;Wet;0.016425119
+7;C. blanchetianus;IP;Wet;0.009870481
+7;C. blanchetianus;IP;Wet;0.005756016
+7;B. cheilantha;IP;Wet;0.031753211
+7;B. cheilantha;IP;Wet;0.026318271
+7;B. cheilantha;IP;Wet;0.042214094
+7;C. flexuosa;IP;Wet;0.019555686
+7;C. flexuosa;IP;Wet;0.020029285
+7;C. flexuosa;IP;Wet;0.022186424
+7;S. joazeiro;IP;Wet;0.019938903
+7;S. joazeiro;IP;Wet;0.018424573
+7;S. joazeiro;IP;Wet;0.022353665
+9;C. blanchetianus;IP;Wet;0.016765492
+9;C. blanchetianus;IP;Wet;0.02199294
+9;C. blanchetianus;IP;Wet;0.008941007
+9;B. cheilantha;IP;Wet;0.027722791
+9;B. cheilantha;IP;Wet;0.026752299
+9;B. cheilantha;IP;Wet;0.03668835
+9;C. flexuosa;IP;Wet;0.022650965
+9;C. flexuosa;IP;Wet;0.018930359
+9;C. flexuosa;IP;Wet;0.018526369
+9;S. joazeiro;IP;Wet;0.016266862
+9;S. joazeiro;IP;Wet;0.025463865
+9;S. joazeiro;IP;Wet;0.024416221
+10;C. blanchetianus;IP;Wet;0.011761054
+10;C. blanchetianus;IP;Wet;0.008386845
+10;C. blanchetianus;IP;Wet;0.008362873
+10;B. cheilantha;IP;Wet;0.036147076
+10;B. cheilantha;IP;Wet;0.040782305
+10;B. cheilantha;IP;Wet;0.025457831
+10;C. flexuosa;IP;Wet;0.030179929
+10;C. flexuosa;IP;Wet;0.021150344
+10;C. flexuosa;IP;Wet;0.027723403
+10;S. joazeiro;IP;Wet;0.02602096
+10;S. joazeiro;IP;Wet;0.023120391
+10;S. joazeiro;IP;Wet;0.021512131
+12;C. blanchetianus;IP;Wet;0.016997366
+12;C. blanchetianus;IP;Wet;0.020135165
+12;C. blanchetianus;IP;Wet;0.015033713
+12;B. cheilantha;IP;Wet;0.091688115
+12;B. cheilantha;IP;Wet;0.084958017
+12;B. cheilantha;IP;Wet;0.118686375
+12;C. flexuosa;IP;Wet;0.020436677
+12;C. flexuosa;IP;Wet;0.023320903
+12;C. flexuosa;IP;Wet;0.022676205
+12;S. joazeiro;IP;Wet;0.01614016
+12;S. joazeiro;IP;Wet;0.0166577
+12;S. joazeiro;IP;Wet;0.008513183
+14;C. blanchetianus;IP;Wet;0.010141533
+14;C. blanchetianus;IP;Wet;0.016384856
+14;C. blanchetianus;IP;Wet;0.008458277
+14;B. cheilantha;IP;Wet;0.023713452
+14;B. cheilantha;IP;Wet;0.049299878
+14;B. cheilantha;IP;Wet;0.03700248
+14;C. flexuosa;IP;Wet;0.021252244
+14;C. flexuosa;IP;Wet;0.01878455
+14;C. flexuosa;IP;Wet;0.027169277
+14;S. joazeiro;IP;Wet;0.006149005
+14;S. joazeiro;IP;Wet;0.008301868
+14;S. joazeiro;IP;Wet;0.012563269
+9;C. blanchetianus;DS;Dry;0.000361622
+9;C. blanchetianus;DS;Dry;0.000205954
+9;C. blanchetianus;DS;Dry;0.000512872
+9;B. cheilantha;DS;Dry;0.001259179
+9;B. cheilantha;DS;Dry;0.000969419
+9;B. cheilantha;DS;Dry;0.001809774
+9;C. flexuosa;DS;Dry;0.000903885
+9;C. flexuosa;DS;Dry;0.000821234
+9;C. flexuosa;DS;Dry;0.000630573
+9;S. joazeiro;DS;Dry;0.000460467
+9;S. joazeiro;DS;Dry;0.000516416
+9;S. joazeiro;DS;Dry;0.000838089
+12;C. blanchetianus;DS;Dry;0.000298123
+12;C. blanchetianus;DS;Dry;0.00031476
+12;C. blanchetianus;DS;Dry;0.000417177
+12;B. cheilantha;DS;Dry;0.001483806
+12;B. cheilantha;DS;Dry;0.004162765
+12;B. cheilantha;DS;Dry;0.001788552
+12;C. flexuosa;DS;Dry;0.000597739
+12;C. flexuosa;DS;Dry;0.000672033
+12;C. flexuosa;DS;Dry;0.000513037
+12;S. joazeiro;DS;Dry;0.000420374
+12;S. joazeiro;DS;Dry;0.000340873
+12;S. joazeiro;DS;Dry;0.000307498
+13;C. blanchetianus;DS;Dry;0.000660393
+13;C. blanchetianus;DS;Dry;0.00059575
+13;C. blanchetianus;DS;Dry;0.000248746
+13;B. cheilantha;DS;Dry;0.00056285
+13;B. cheilantha;DS;Dry;0.006612226
+13;B. cheilantha;DS;Dry;0.000517388
+13;C. flexuosa;DS;Dry;0.000345057
+13;C. flexuosa;DS;Dry;0.000605112
+13;C. flexuosa;DS;Dry;0.000508896
+13;S. joazeiro;DS;Dry;0.000597196
+13;S. joazeiro;DS;Dry;0.00044068
+13;S. joazeiro;DS;Dry;0.000407869
+15;C. blanchetianus;DS;Dry;0.000154792
+15;C. blanchetianus;DS;Dry;0.00026553
+15;C. blanchetianus;DS;Dry;0.000241832
+15;B. cheilantha;DS;Dry;0.00045501
+15;B. cheilantha;DS;Dry;0.00169562
+15;B. cheilantha;DS;Dry;0.003847985
+15;C. flexuosa;DS;Dry;0.00050603
+15;C. flexuosa;DS;Dry;0.000522481
+15;C. flexuosa;DS;Dry;0.000482187
+15;S. joazeiro;DS;Dry;0.000350041
+15;S. joazeiro;DS;Dry;0.000576161
+15;S. joazeiro;DS;Dry;0.000410014
+16;C. blanchetianus;DS;Dry;0.000244178
+16;C. blanchetianus;DS;Dry;0.00042557
+16;C. blanchetianus;DS;Dry;0.000312787
+16;B. cheilantha;DS;Dry;0.001481911
+16;B. cheilantha;DS;Dry;0.001012697
+16;B. cheilantha;DS;Dry;0.000549137
+16;C. flexuosa;DS;Dry;0.000533701
+16;C. flexuosa;DS;Dry;0.000631165
+16;C. flexuosa;DS;Dry;0.000382713
+16;S. joazeiro;DS;Dry;0.000779593
+16;S. joazeiro;DS;Dry;0.000795252
+16;S. joazeiro;DS;Dry;0.000621441
+17;C. blanchetianus;DS;Dry;0.00017046
+17;C. blanchetianus;DS;Dry;0.000323274
+17;C. blanchetianus;DS;Dry;0.000441332
+17;B. cheilantha;DS;Dry;0.003470248
+17;B. cheilantha;DS;Dry;0.003302881
+17;B. cheilantha;DS;Dry;0.003585314
+17;C. flexuosa;DS;Dry;0.000568031
+17;C. flexuosa;DS;Dry;0.000340764
+17;C. flexuosa;DS;Dry;0.000273954
+17;S. joazeiro;DS;Dry;0.000376891
+17;S. joazeiro;DS;Dry;0.00045792
+17;S. joazeiro;DS;Dry;0.000635619
+21;C. blanchetianus;DS;Dry;0.000285952
+21;C. blanchetianus;DS;Dry;0.000413757
+21;C. blanchetianus;DS;Dry;0.000209561
+21;B. cheilantha;DS;Dry;0.00453071
+21;B. cheilantha;DS;Dry;0.003500437
+21;B. cheilantha;DS;Dry;0.0036551
+21;C. flexuosa;DS;Dry;0.000444252
+21;C. flexuosa;DS;Dry;0.000442487
+21;C. flexuosa;DS;Dry;0.000467522
+21;S. joazeiro;DS;Dry;0.000618484
+21;S. joazeiro;DS;Dry;0.00053467
+21;S. joazeiro;DS;Dry;0.000539506
+24;C. blanchetianus;DS;Dry;0.000849882
+24;C. blanchetianus;DS;Dry;0.000803093
+24;C. blanchetianus;DS;Dry;0.0005372
+24;B. cheilantha;DS;Dry;0.001410893
+24;B. cheilantha;DS;Dry;0.001326014
+24;B. cheilantha;DS;Dry;0.001186589
+24;C. flexuosa;DS;Dry;0.00081863
+24;C. flexuosa;DS;Dry;0.000709584
+24;C. flexuosa;DS;Dry;0.000549526
+24;S. joazeiro;DS;Dry;0.000826215
+24;S. joazeiro;DS;Dry;0.000635075
+24;S. joazeiro;DS;Dry;0.001000437
+3;C. blanchetianus;IP;Dry;0.000308879
+3;C. blanchetianus;IP;Dry;0.001394708
+3;C. blanchetianus;IP;Dry;0.000595629
+3;B. cheilantha;IP;Dry;0.002083251
+3;B. cheilantha;IP;Dry;0.002338055
+3;B. cheilantha;IP;Dry;0.002052229
+3;C. flexuosa;IP;Dry;0.001031708
+3;C. flexuosa;IP;Dry;0.000946386
+3;C. flexuosa;IP;Dry;0.000971589
+3;S. joazeiro;IP;Dry;0.000672975
+3;S. joazeiro;IP;Dry;0.00080266
+3;S. joazeiro;IP;Dry;0.000958318
+5;C. blanchetianus;IP;Dry;0.000388627
+5;C. blanchetianus;IP;Dry;0.000353507
+5;C. blanchetianus;IP;Dry;0.000539453
+5;B. cheilantha;IP;Dry;0.001751273
+5;B. cheilantha;IP;Dry;0.002543183
+5;B. cheilantha;IP;Dry;0.001836385
+5;C. flexuosa;IP;Dry;0.001097047
+5;C. flexuosa;IP;Dry;0.001053979
+5;C. flexuosa;IP;Dry;0.001372715
+5;S. joazeiro;IP;Dry;0.000490893
+5;S. joazeiro;IP;Dry;0.00090156
+5;S. joazeiro;IP;Dry;0.001122298
+6;C. blanchetianus;IP;Dry;0.00110714
+6;C. blanchetianus;IP;Dry;0.000786169
+6;C. blanchetianus;IP;Dry;0.000818362
+6;B. cheilantha;IP;Dry;0.002532835
+6;B. cheilantha;IP;Dry;0.002343539
+6;B. cheilantha;IP;Dry;0.002843066
+6;C. flexuosa;IP;Dry;0.000997599
+6;C. flexuosa;IP;Dry;0.000931448
+6;C. flexuosa;IP;Dry;0.001196069
+6;S. joazeiro;IP;Dry;0.000984886
+6;S. joazeiro;IP;Dry;0.000745469
+6;S. joazeiro;IP;Dry;0.000928079
+7;C. blanchetianus;IP;Dry;0.000494959
+7;C. blanchetianus;IP;Dry;0.000520258
+7;C. blanchetianus;IP;Dry;0.000303623
+7;B. cheilantha;IP;Dry;0.002403238
+7;B. cheilantha;IP;Dry;0.001709778
+7;B. cheilantha;IP;Dry;0.002148495
+7;C. flexuosa;IP;Dry;0.001132113
+7;C. flexuosa;IP;Dry;0.001182075
+7;C. flexuosa;IP;Dry;0.001038263
+7;S. joazeiro;IP;Dry;0.000645715
+7;S. joazeiro;IP;Dry;0.000932324
+7;S. joazeiro;IP;Dry;0.000597393
+10;C. blanchetianus;IP;Dry;0.00057211
+10;C. blanchetianus;IP;Dry;0.000270906
+10;B. cheilantha;IP;Dry;0.001070507
+10;B. cheilantha;IP;Dry;0.001177474
+10;B. cheilantha;IP;Dry;0.001542885
+10;C. flexuosa;IP;Dry;0.001031846
+10;C. flexuosa;IP;Dry;0.001053627
+10;C. flexuosa;IP;Dry;0.001039972
+10;S. joazeiro;IP;Dry;0.000614756
+10;S. joazeiro;IP;Dry;0.000705773
+10;S. joazeiro;IP;Dry;0.000598489
+14;C. blanchetianus;IP;Dry;0.00045868
+14;C. blanchetianus;IP;Dry;0.000390957
+14;C. blanchetianus;IP;Dry;0.000384977
+14;B. cheilantha;IP;Dry;0.001511183
+14;B. cheilantha;IP;Dry;0.001839243
+14;B. cheilantha;IP;Dry;0.000828779
+14;C. flexuosa;IP;Dry;0.0010108
+14;C. flexuosa;IP;Dry;0.00094153
+14;C. flexuosa;IP;Dry;0.000970933
+14;S. joazeiro;IP;Dry;0.000835428
+14;S. joazeiro;IP;Dry;0.000791171
+14;S. joazeiro;IP;Dry;0.000592597
+18;C. blanchetianus;IP;Dry;0.000236896
+18;C. blanchetianus;IP;Dry;0.000470036
+18;C. blanchetianus;IP;Dry;0.000275831
+18;B. cheilantha;IP;Dry;0.001093963
+18;B. cheilantha;IP;Dry;0.00048383
+18;B. cheilantha;IP;Dry;0.000599712
+18;C. flexuosa;IP;Dry;0.000803903
+18;C. flexuosa;IP;Dry;0.000699999
+18;C. flexuosa;IP;Dry;0.000736925
+18;S. joazeiro;IP;Dry;0.000540682
+18;S. joazeiro;IP;Dry;0.000331941
+18;S. joazeiro;IP;Dry;0.000632553
